@@ -1,4 +1,4 @@
-import logo from "../assets/Asset 16@4x.png";
+import logo from "../assets/Logo.jpg";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NavLink } from "react-router-dom";
@@ -7,8 +7,9 @@ const navigation = [
   { name: "Home", to: "/" },
   { name: "About", to: "/about" },
   { name: "Menu", to: "/menu" },
-  { name: "Reservations", to: "/reservations" },
-  { name: "Order Online", to: "/order-online" },
+  {name:"Contact",to:"/contact"}
+  // { name: "Reservations", to: "/reservations" },
+  // { name: "Order Online", to: "/order-online" },
 ];
 
 export default function Example() {
@@ -55,7 +56,7 @@ export default function Example() {
                   </div>
                 </div>
               </div>
-              <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
+              {/* <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <button
                   type="button"
                   className="relative rounded-full bg-[#f4ce14] duration-200 delay-100 p-1 text-[#495e57] hover:text-white hover:bg-black"
@@ -66,7 +67,7 @@ export default function Example() {
                 </button>
 
                 <button className="ml-3 font-medium">Login</button>
-              </div>
+              </div> */}
             </div>
           </div>
 

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import img from "../assets/Asset 20@4x.png";
+import img from "../assets/Logo.jpg";
 
 function Footer() {
   return (
@@ -8,29 +8,23 @@ function Footer() {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <NavLink to="/" className="flex items-center">
-              <img src={img} className="h-40" alt="FlowBite Logo" />
+            <img src={img} className="h-40" alt="FlowBite Logo" style={{ borderRadius: '10px' }} />
+
             </NavLink>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-6 text-sm font-semibold uppercase">
-                Important Links
+                
               </h2>
               <ul className="font-medium">
-                <li className="mb-4">
-                  <NavLink
-                    to="/reservations"
-                    className="hover:underline underline-offset-8"
-                  >
-                    Reservations
-                  </NavLink>
-                </li>
+                
                 <li className="mb-4">
                   <NavLink
                     to="/menu"
                     className="hover:underline underline-offset-8"
                   >
-                    Menu
+                    Courses
                   </NavLink>
                 </li>
                 <li>
@@ -49,41 +43,39 @@ function Footer() {
               </h2>
               <ul className="font-medium">
                 <li className="mb-4">
-                  <a
+                  {/* <a
                     href="https://www.facebook.com/"
                     className="hover:underline underline-offset-8"
                   >
                     Facebook
-                  </a>
+                  </a> */}
                 </li>
-                <li>
+                {/* <li>
                   <a
                     href="https://www.instagram.com/"
                     className="hover:underline underline-offset-8"
                   >
                     Instagram
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase">Legal</h2>
+              <h2 className="mb-6 text-sm font-semibold uppercase"></h2>
               <ul className="font-medium">
                 <li className="mb-4">
                   <a
                     href="https://en.wikipedia.org/wiki/Privacy_policy"
                     className="hover:underline underline-offset-8"
                   >
-                    Privacy Policy
+                    Mail us
                   </a>
                 </li>
                 <li>
-                  <a
-                    href="https://en.wikipedia.org/wiki/Terms_of_service"
-                    className="hover:underline underline-offset-8"
-                  >
+                  <NavLink to='/'>
                     Terms &amp; Conditions
-                  </a>
+                    </NavLink>
+                  
                 </li>
               </ul>
             </div>
@@ -92,7 +84,7 @@ function Footer() {
         <hr className="my-6 sm:mx-auto lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <p className="mt-3 font-medium text-sm">
-            Copyright © 2023 Little Lemon™ . All Rights Reserved.
+            Copyright © 2023 Codebase . All Rights Reserved.
           </p>
           <p className="mt-3 font-medium text-sm flex items-center gap-x-4">
             Give it a ⭐ on
@@ -116,13 +108,13 @@ function Footer() {
               </a>
             </button>
           </p>
-          <p className="mt-3 font-medium text-sm">
+          {/* <p className="mt-3 font-medium text-sm">
             Created with ❤️ by{" "}
             <span className="font-bold">
               <a href="https://github.com/sohomofficial">Sohom Mondal</a>
             </span>
             .
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

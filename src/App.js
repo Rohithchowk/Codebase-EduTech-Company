@@ -9,8 +9,9 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Menu from "./pages/Menu";
-import Reservations from "./pages/Reservations";
-import OrderOnline from "./pages/OrderOnline";
+// import Reservations from "./pages/Reservations";
+// import OrderOnline from "./pages/OrderOnline";
+import Contact from "./pages/Conatact"
 
 const App = () => {
   return (
@@ -21,8 +22,9 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/menu" element={<Menu />} />
-          <Route path="/reservations" element={<Reservations />} />
-          <Route path="/order-online" element={<OrderOnline />} />
+          {/* <Route path="/reservations" element={<Reservations />} />
+          <Route path="/order-online" element={<OrderOnline />} /> */}
+          <Route path="/contact" element={<Contact/>}/>
         </Routes>
         <Footer />
       </Router>

@@ -1,32 +1,50 @@
-import banner from "../assets/banner.jpg";
-import GreekSalad from "../assets/greek-salad.jpg";
-import Bruchetta from "../assets/bruchetta.jpg";
-import LemonCake from "../assets/lemon-cake.jpg";
+import banner from "../assets/Banner.jpeg";
+import GreekSalad from "../assets/htmlcssjs.png";
+import Bruchetta from "../assets/MMM.jpg";
+import LemonCake from "../assets/MLL.jpg";
+import Java from "../assets/javaa.png";
+import python from "../assets/pythonn.png"
 import { NavLink } from "react-router-dom";
 
 const dishes = [
   {
     id: 1,
     src: GreekSalad,
-    title: "Greek Salad",
+    title: "HTML CSS JS",
     description:
-      "Imagine yourself basking in the Greek sunshine, the salty breeze carrying the scent of olive groves and fresh herbs. Our Greek salad captures that essence in every bite.",
+      "HTML, CSS, and JavaScript collaborate to shape the digital landscape. HTML structures, CSS styles, and JavaScript adds interactivity, forming the backbone of dynamic and visually engaging web experiences.",
     price: "$12.99",
   },
   {
     id: 2,
     src: Bruchetta,
-    title: "Bruchetta",
+    title: "MERN STACK",
     description:
-      "Crispy slices of rustic Italian bread, charred to perfection, kissed with garlic and drenched in luscious extra virgin olive oil. This is the canvas for a symphony of fresh, seasonal flavors.",
+      "MERN, with MongoDB, Express.js, React, and Node.js, streamlines web development. This stack seamlessly integrates databases, server-side operations, and user interfaces, enabling the creation of scalable and responsive applications.",
     price: "$5.99",
   },
   {
     id: 3,
     src: LemonCake,
-    title: "Lemon Cake",
+    title: "MACHINE LEARNING",
     description:
-      "Our citrusy cake melts on your tongue, leaving a taste of sunshine. Finished with a touch of whipped cream and candied peel, it's a refreshing finale, any season.",
+      "Machine Learning, a transformative force, enables systems to learn from data, driving innovations across diverse fields and fostering automated insights.",
+    price: "$5.00",
+  },
+  {
+    id: 4,
+    src: Java,
+    title: "JAVA",
+    description:
+      "Java is a versatile, object-oriented programming language known for its platform independence, making it a go-to choice for building robust and scalable applications.",
+    price: "$5.00",
+  },
+  {
+    id: 5,
+    src: python,
+    title: "PYTHON",
+    description:
+      "Python, renowned for its simplicity and readability, is a high-level programming language widely favored for its versatility in web development, data science, and automation.",
     price: "$5.00",
   },
 ];
@@ -44,12 +62,11 @@ function Home() {
           />
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-4xl font-bold tracking-tight text-[#f4ce14] sm:text-6xl">
-              Little Lemon
+              Code base
             </h2>
-            <p className="text-white text-3xl sm:text-4xl">Chicago</p>
+            <p className="text-white text-3xl sm:text-4xl">Ignite Your Digital Journey: Mastering Code, Crafting Futures .</p>
             <p className="text-white mt-6 text-xl leading-8">
-              We are a family-owned Mediterranean restaurant, focused on
-              traditional recipes served with a modern twist.
+            We teach programming to the coding aspirants.
             </p>
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
@@ -57,7 +74,7 @@ function Home() {
               to="/reservations"
               className="rounded-md duration-200 delay-100 bg-[#f4ce14] text-[#495e57] px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-black hover:text-white"
             >
-              Book a table
+              Explore the courses !!!
             </NavLink>
           </div>
         </div>
@@ -68,7 +85,7 @@ function Home() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto flex justify-between lg:mx-0">
             <h2 className="text-4xl font-bold tracking-tight sm:text-6xl">
-              This weeks specials!
+              Our Courses !!!
             </h2>
             <NavLink
               to="/menu"
@@ -93,7 +110,7 @@ function Home() {
                   <p className="">{item.description}</p>
                 </div>
                 <div className="px-6 pt-4 pb-2">
-                  <p className="py-1">{item.price}</p>
+                  <p className="py-1"></p>
                 </div>
               </div>
             ))}

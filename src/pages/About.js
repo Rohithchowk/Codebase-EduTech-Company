@@ -1,4 +1,4 @@
-import banner from "../assets/Asset 9@4x.png";
+import banner from "../assets/Logo.jpg";
 
 function About() {
   return (
@@ -12,22 +12,10 @@ function About() {
                 About Us
               </p>
               <p className="mt-6 text-lg leading-8">
-                Based in Chicago, Illinois, Little Lemon is a family-owned
-                Mediterranean restaurant, focused on traditional recipes served
-                with a modern twist. The chefs draw inspiration from Italian,
-                Greek, and Turkish culture and have a menu of 12–15 items that
-                they rotate seasonally. The restaurant has a rustic and relaxed
-                atmosphere with moderate prices, making it a popular place for a
-                meal any time of the day.
+              Welcome to Code Base, your startup ally in the coding realm! Our compact team of 12 enthusiasts is here to simplify coding, programming, and web development for beginners. Despite being a startup, we prioritize accessible and engaging courses, ensuring a supportive learning environment. Dive into our hands-on projects, designed to boost your confidence and skills. As you conquer the coding landscape, our certificates will celebrate your success. Join Code Base, where startup spirit meets coding passion – your journey to coding proficiency starts here!
               </p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                Little Lemon is owned by two Italian brothers, Mario and Adrian,
-                who moved to the United States to pursue their shared dream of
-                owning a restaurant. To craft the menu, Mario relies on family
-                recipes and his experience as a chef in Italy. Adrian does all
-                the marketing for the restaurant and led the effort to expand
-                the menu beyond classic Italian to incorporate additional
-                cuisines from the Mediterranean region.
+               
               </p>
             </div>
           </div>
