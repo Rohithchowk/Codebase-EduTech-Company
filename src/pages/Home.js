@@ -71,7 +71,7 @@ function Home() {
           </div>
           <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
             <NavLink
-              to="/reservations"
+              to="/menu"
               className="rounded-md duration-200 delay-100 bg-[#f4ce14] text-[#495e57] px-3.5 py-2.5 text-sm font-semibold shadow-sm hover:bg-black hover:text-white"
             >
               Explore the courses !!!
